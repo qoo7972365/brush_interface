@@ -7,7 +7,7 @@ FROM ubuntu:18.04
 MAINTAINER qoo7972365@gmail.com
 
 # 镜像操作命令
-#RUN apt-get -yqq update && apt-get install -yqq apache2 && apt-get clean
+RUN git clone https://github.com/qoo7972365/brush_interface.git
 
 # 容器启动命令
-#CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+#CMD ["", "-D", "FOREGROUND"]
